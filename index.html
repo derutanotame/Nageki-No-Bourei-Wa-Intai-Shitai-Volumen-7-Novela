@@ -154,16 +154,25 @@
     <img src="Nageki.no.Bourei.wa.Intai.shitai.full.4277015.jpg" alt="Imagen principal">
   </div>
   <div class="right">
-    <h1><i class="fas fa-book"></i> NEGEKI NO BOUREI WA INTAI SHITAI</h1>
+    <h1><i class="fas fa-book"></i> NEGEKI NO BOUREI WA INTAI SHITAI<span class="counter"><i class="fas fa-download"></i> <span id="contador">...</span></span></h1>
 
     <div class="dropdown">
-      <button class="dropdown-btn" onclick="toggleDropdown()">
-        <i class="fas fa-chevron-down"></i> Volumen 7
-        <span class="counter"><i class="fas fa-download"></i> <span id="contador">...</span></span>
+      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-7-1')">
+        <i class="fas fa-chevron-down"></i> Volumen 7 
       </button>
-      <div class="dropdown-content" id="dropdown-content">
-        <a href="https://www.mediafire.com/file/4tf20d8mp87n182/7_espa%25C3%25B1ol.odt/file" target="_blank" onclick="incrementarContador()">
+      <div class="dropdown-content" id="dropdown-7-1">
+        <a href="https://shrinkme.ink/YFqD0i6" target="_blank" onclick="incrementarContador()">
           <img src="7_page-0001.jpg" alt="Volumen 7">
+        </a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-8-1')">
+        <i class="fas fa-chevron-down"></i> Volumen 8.1 
+      </button>
+      <div class="dropdown-content" id="dropdown-8-1">
+        <a href="https://shrinkme.ink/AMM6Z" target="_blank" onclick="incrementarContador()">
+          <img src="8_page-0001.jpg" alt="Volumen 8.1">
         </a>
       </div>
     </div>
@@ -174,11 +183,13 @@
 <script>
 particlesJS.load('particles-js', 'https://raw.githubusercontent.com/VincentGarreau/particles.js/master/demo/particles.json');
 
-function toggleDropdown() {
-  var content = document.getElementById("dropdown-content");
-  content.classList.toggle('open');
-  var audio = new Audio('https://actions.google.com/sounds/v1/cartoon/pop.ogg');
-  audio.play();
+function toggleDropdown(id) {
+  var content = document.getElementById(id);
+  if (content) {
+    content.classList.toggle('open');
+    var audio = new Audio('https://actions.google.com/sounds/v1/cartoon/pop.ogg');
+    audio.play();
+  }
 }
 
 const binId = '68113e568561e97a500a562e';
