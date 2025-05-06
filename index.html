@@ -17,11 +17,7 @@
       overflow-x: hidden;
       position: relative;
     }
-    @keyframes gradientBG {
-      0% {background-position: 0% 50%;}
-      50% {background-position: 100% 50%;}
-      100% {background-position: 0% 50%;}
-    }
+    
     header {
       background-color: rgba(0,0,0,0.7);
       padding: 20px;
@@ -34,11 +30,7 @@
       backdrop-filter: blur(10px);
       animation: bounceIn 2s;
     }
-    @keyframes bounceIn {
-      0% {transform: scale(0.5); opacity: 0;}
-      50% {transform: scale(1.2); opacity: 1;}
-      100% {transform: scale(1);}
-    }
+    
     main {
       display: flex;
       flex-wrap: wrap;
@@ -174,9 +166,9 @@
   </div>
 </main>
 
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
 <script>
-particlesJS.load('particles-js', 'https://raw.githubusercontent.com/VincentGarreau/particles.js/master/demo/particles.json');
+
 
 function toggleDropdown(id) {
   var content = document.getElementById(id);
