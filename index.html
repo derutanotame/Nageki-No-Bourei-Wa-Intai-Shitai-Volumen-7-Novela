@@ -108,9 +108,11 @@
       background-color: #333;
     }
     .dropdown-content.open {
-      max-height: 1000px;
-      padding: 10px 0;
-    }
+  max-height: none; /* sin límite de altura */
+  padding: 10px 0;
+  overflow-y: auto; /* permitir scroll si se necesita */
+}
+
     .dropdown-content img {
       width: 100%;
       height: auto;
@@ -191,6 +193,7 @@ function toggleDropdown(id) {
     audio.play();
   }
 }
+
 
 const binId = '68113e568561e97a500a562e';
 const apiKey = '$2a$10$dESLzWtywGFV1bSVU95Q../tb7ODOEaihmaYlpxKAh7SKq2QHzLMO';
