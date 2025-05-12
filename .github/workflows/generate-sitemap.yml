@@ -1,0 +1,28 @@
+name: Generate Sitemap
+
+on:
+  push:
+    branches:
+      - main  # o el nombre de la rama principal que uses
+  pull_request:
+    branches:
+      - main  # también en las solicitudes de pull
+
+jobs:
+  generate-sitemap:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Generate Sitemap
+      run: |
+        curl https://www.xml-sitemaps.com/ | grep -o 'https://derutanotame.github.io/Nageki-No-Boure-Wa-Intai-Shitai-Novela-Volumen-7/' > sitemap.xml
+
+    - name: Commit Sitemap
+      uses: EndBug/add-and-commit@v7
+      with:
+        author_name: 'github-actions[bot]'
+        author_email: 'github-actions[bot]@users.noreply.github.com'
+        message: 'Generar sitemap.xml automáticamente'
