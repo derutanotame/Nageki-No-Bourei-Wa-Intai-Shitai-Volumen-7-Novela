@@ -18,7 +18,12 @@ jobs:
 
     - name: Generate Sitemap
       run: |
-        curl https://www.xml-sitemaps.com/ | grep -o 'https://derutanotame.github.io/Nageki-No-Boure-Wa-Intai-Shitai-Novela-Volumen-7/' > sitemap.xml
+        echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" > sitemap.xml
+        echo "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">" >> sitemap.xml
+        echo "  <url>" >> sitemap.xml
+        echo "    <loc>https://derutanotame.github.io/Nageki-No-Boure-Wa-Intai-Shitai-Novela-Volumen-7/</loc>" >> sitemap.xml
+        echo "  </url>" >> sitemap.xml
+        echo "</urlset>" >> sitemap.xml
 
     - name: Commit Sitemap
       uses: EndBug/add-and-commit@v7
