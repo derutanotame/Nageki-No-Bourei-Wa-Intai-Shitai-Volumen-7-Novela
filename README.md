@@ -1,1 +1,1 @@
-https://derutanotame.github.io/Nageki-No-Boure-Wa-Intai-Shitai-Novela-Volumen-7/
+https://derutanotame.github.io/Nageki-No-Bourei-Wa-Intai-Shitai-Volumen-7-Novela/
