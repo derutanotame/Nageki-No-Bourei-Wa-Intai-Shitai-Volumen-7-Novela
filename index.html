@@ -1,316 +1,132 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="volumen 7 de Nageki No Bourei Wa intai Shitai . volumen 8 de Nageki No Bourei Wa intai Shitai .en español novela">
-  <title>Nageki No Bourei Wa Intai Shitai-ZAZA TRADUCCIONES</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(-45deg, #1e1e2f, #222, #2a2a3a, #1f1f1f);
-      background-size: 400% 400%;
-      animation: gradientBG 15s ease infinite;
-      color: white;
-      overflow-x: hidden;
-      position: relative;
-    }
-    
-    header {
-      background-color: rgba(0,0,0,0.7);
-      padding: 20px;
-      text-align: center;
-      font-size: 2.5em;
-      font-weight: bold;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      backdrop-filter: blur(10px);
-      animation: bounceIn 2s;
-    }
-    
-    main {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 30px;
-      animation: fadeIn 2s ease;
-    }
-   
-    .left, .right {
-      flex: 1;
-      min-width: 300px;
-      padding: 20px;
-    }
-    .left img {
-      width: 100%;
-      height: auto;
-      border-radius: 15px;
-      box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
-      transition: transform 0.5s ease;
-    }
-    .left img:hover {
-      transform: scale(1.08);
-    }
-    .right h1 {
-      font-size: 2em;
-      margin-bottom: 20px;
-      text-align: center;
-      animation: neon 1.5s infinite alternate;
-    }
-    
-    .dropdown {
-      margin-top: 20px;
-      overflow: hidden;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-      background: rgba(0,0,0,0.5);
-      backdrop-filter: blur(5px);
-    }
-    .dropdown-btn {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-      width: 100%;
-      text-align: center;
-      border: none;
-      cursor: pointer;
-      font-size: 1.2em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      transition: background 0.3s ease, transform 0.3s ease;
-    }
-    .dropdown-btn:hover {
-      background-color: #777;
-      transform: scale(1.05);
-    }
-    .dropdown-content {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.5s ease, padding 0.5s ease;
-      background-color: #333;
-    }
-    .dropdown-content.open {
-  max-height: none; /* sin límite de altura */
-  padding: 10px 0;
-  overflow-y: auto; /* permitir scroll si se necesita */
-}
-
-    .dropdown-content img {
-      width: 100%;
-      height: auto;
-      border-radius: 0 0 10px 10px;
-      animation: fadeInImg 1s ease;
-    }
-    .counter {
-      display: flex;
-      align-items: center;
-      font-size: 1em;
-      color: #ccc;
-    }
-    .counter i {
-      margin-left: 10px;
-      color: #0ff;
-    }
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-    .facebook-link {
-  position: absolute;
-  top: 0px;
-  right: 20px;
-  font-size: 1.8em;
-  color: #3b5998;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-.facebook-link:hover {
-  transform: scale(1.2);
-  color: #8b9dc3;
-}
- 
-  </style>
+  <meta name="description" content="volumen 7 de Nageki No Bourei Wa intai Shitai . volumen 8 de Nageki No Bourei Wa intai Shitai .en español novela.strange grief volumenes. grieving soul.">
+  <title>Nageki No Bourei Wa Intai Shitai- Volúmenes 7, 8 y 9 - ZAZA TRADUCCIONES</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="diseño.css">
+  <!-- FontAwesome diferido -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
 </head>
 <body>
-
-
-
 <header>
-  <i class="fas fa-language"></i> ZAZA TRADUCCIONES<a href="https://www.facebook.com/people/Zaza-traducciones/61573916212609/" 
-  class="facebook-link" target="_blank" aria-label="Zaza en Facebook">
- <i class="fab fa-facebook-square"></i>
-</a>
-
+  <i class="fas fa-language"></i> ZAZA TRADUCCIONES
+  <a href="https://www.facebook.com/people/Zaza-traducciones/61573916212609/" class="facebook-link" target="_blank" aria-label="Zaza en Facebook">
+    <i class="fab fa-facebook-square"></i>
+  </a>
 </header>
-
 <main>
   <div class="left">
-    <img src="Nageki.no.Bourei.wa.Intai.shitai.full.4277015.jpg" alt="Imagen principal">
+    <img src="izquierda.webp" width="800" height="1131" alt="Imagen principal" loading="eager">
   </div>
   <div class="right">
-    <h1><i class="fas fa-book"></i> NEGEKI NO BOUREI WA INTAI SHITAI<span class="counter"><i class="fas fa-download"></i> <span id="contador">...</span></span></h1>
+    <h1><i class="fas fa-book"></i> NAGEKI NO BOUREI WA INTAI SHITAI <span class="counter"><i class="fas fa-download"></i> <span id="contador">...</span></span></h1>
 
-    <div class="dropdown">
-      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-7-1')">
-        <i class="fas fa-chevron-down"></i> Volumen 7  <i class="fas fa-file-pdf" style="color: red; margin-left: 10px;"></i>
-      </button>
-      <div class="dropdown-content" id="dropdown-7-1">
-        <a href="https://www.mediafire.com/file/uli72kgwjv8a3xo/7_espa%25C3%25B1ol_%25281%2529.pdf/file" target="_blank" onclick="incrementarContador()">
-          <img src="7_page-0001.jpg" alt="Volumen 7">
-        </a>
+    <!-- PDFs -->
+    <h2><i class="fas fa-file-pdf" style="color: red;"></i> Archivos PDF</h2>
+    <div class="grupo">
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('pdf-7')"><i class="fas fa-chevron-down"></i> Volumen 7</button>
+        <div class="dropdown-content" id="pdf-7">
+          <a href="https://www.mediafire.com/file/uli72kgwjv8a3xo/7_espa%25C3%25B1ol_%25281%2529.pdf/file" target="_blank" onclick="incrementarContador()">
+            <img src="7.webp" width="800" height="1131" alt="Volumen 7" loading="lazy">
+          </a>
+        </div>
       </div>
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('pdf-8.1')"><i class="fas fa-chevron-down"></i> Volumen 8.1</button>
+        <div class="dropdown-content" id="pdf-8.1">
+          <a href="https://www.mediafire.com/file/fakxqlqcpu9sg59/8.1+español.pdf/file" target="_blank" onclick="incrementarContador()">
+            <img src="8.webp" width="800" height="1131" alt="Volumen 8.1" loading="lazy">
+          </a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('pdf-8.2')"><i class="fas fa-chevron-down"></i> Volumen 8.2</button>
+        <div class="dropdown-content" id="pdf-8.2">
+          <a href="https://www.mediafire.com/file/ks9ycp53jown6c4/8.2+español.pdf/file" target="_blank" onclick="incrementarContador()">
+            <img src="8.webp" width="800" height="1131" alt="Volumen 8.2" loading="lazy">
+          </a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('pdf-8.3')"><i class="fas fa-chevron-down"></i> Volumen 8.3</button>
+        <div class="dropdown-content" id="pdf-8.3">
+          <a href="https://www.mediafire.com/file/88nmtajv8ywp7oi/8.3+español.pdf/file" target="_blank" onclick="incrementarContador()">
+            <img src="8.webp" width="800" height="1131" alt="Volumen 8.3" loading="lazy">
+          </a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('pdf-8.4')"><i class="fas fa-chevron-down"></i> Volumen 8.4</button>
+        <div class="dropdown-content" id="pdf-8.4">
+          <a href="https://www.mediafire.com/file/peqkwz27rh4mj01/8.4+español.pdf/file" target="_blank" onclick="incrementarContador()">
+            <img src="8.webp" width="800" height="1131" alt="Volumen 8.4" loading="lazy">
+          </a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('pdf-9.1')"><i class="fas fa-chevron-down"></i> Volumen 9.1</button>
+        <div class="dropdown-content" id="pdf-9.1">
+          <a href="https://www.mediafire.com/file/tjqrq7ok1tl6uyr/9.1+español.pdf/file" target="_blank" onclick="incrementarContador()">
+            <img src="9.webp" width="800" height="1131" alt="Volumen 9.1" loading="lazy">
+          </a>
+        </div>
+      </div>
+      
+      <!-- Repetir para PDF 8.3, 8.4, 9.1 -->
     </div>
-    <div class="dropdown">
-      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-8-1')">
-        <i class="fas fa-chevron-down"></i> Volumen 8.1 
-      </button>
-      <div class="dropdown-content" id="dropdown-8-1">
-        <a href="https://www.mediafire.com/file/0v2i17swfck8opt/8.1_espa%25C3%25B1ol.odt/file" target="_blank" onclick="incrementarContador()">
-          <img src="8_page-0001.jpg" alt="Volumen 8.1">
-        </a>
+
+    <!-- Word / ODT -->
+    <h2><i class="fas fa-file-word" style="color: #2a5699;"></i> Archivos Word/ODT</h2>
+    <div class="grupo">
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('odt-8.1')"><i class="fas fa-chevron-down"></i> Volumen 8.1</button>
+        <div class="dropdown-content" id="odt-8.1">
+          <a href="https://www.mediafire.com/file/0v2i17swfck8opt/8.1_espa%25C3%25B1ol.odt/file" target="_blank" onclick="incrementarContador()">
+            <img src="8.webp" width="800" height="1131" alt="Volumen 8.1" loading="lazy">
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-8-2')">
-        <i class="fas fa-chevron-down"></i> Volumen 8.2 
-      </button>
-      <div class="dropdown-content" id="dropdown-8-2">
-        <a href="https://www.mediafire.com/file/3dvq9s0xegtggd3/8.2_espa%25C3%25B1ol.odt/file" target="_blank" onclick="incrementarContador()">
-          <img src="8_page-0001.jpg" alt="Volumen 8.2">
-        </a>
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('odt-8.2')"><i class="fas fa-chevron-down"></i> Volumen 8.2</button>
+        <div class="dropdown-content" id="odt-8.2">
+          <a href="https://www.mediafire.com/file/3dvq9s0xegtggd3/8.2_espa%25C3%25B1ol.odt/file" target="_blank" onclick="incrementarContador()">
+            <img src="8.webp" width="800" height="1131" alt="Volumen 8.2" loading="lazy">
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-8-3')">
-        <i class="fas fa-chevron-down"></i> Volumen 8.3
-        <i class="fas fa-file-word" style="color: #2a5699; margin-left: 5px;"></i>
-      </button>
-      <div class="dropdown-content" id="dropdown-8-3">
-        <a href="https://www.mediafire.com/file/cmcuh5va6t6oa5e/8.3+español.odt/file" target="_blank" onclick="incrementarContador()">
-          <img src="8_page-0001.jpg" alt="Volumen 8.3">
-        </a>
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('odt-8.3')"><i class="fas fa-chevron-down"></i> Volumen 8.3</button>
+        <div class="dropdown-content" id="odt-8.3">
+          <a href="https://www.mediafire.com/file/cmcuh5va6t6oa5e/8.3+español.odt/file" target="_blank" onclick="incrementarContador()">
+            <img src="8.webp" width="800" height="1131" alt="Volumen 8.3" loading="lazy">
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-8-31')">
-        <i class="fas fa-chevron-down"></i> Volumen 8.3
-        <i class="fas fa-file-pdf" style="color: red; margin-left: 10px;"></i>
-      </button>
-      <div class="dropdown-content" id="dropdown-8-31">
-        <a href="https://www.mediafire.com/file/88nmtajv8ywp7oi/8.3+español.pdf/file" target="_blank" onclick="incrementarContador()">
-          <img src="8_page-0001.jpg" alt="Volumen 8.31">
-        </a>
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('odt-8.4')"><i class="fas fa-chevron-down"></i> Volumen 8.4</button>
+        <div class="dropdown-content" id="odt-8.4">
+          <a href="https://www.mediafire.com/file/ngtyu5848dnn0et/8.4+español.odt/file" target="_blank" onclick="incrementarContador()">
+            <img src="8.webp" width="800" height="1131" alt="Volumen 8.4" loading="lazy">
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-8-4')">
-        <i class="fas fa-chevron-down"></i> Volumen 8.4
-        <i class="fas fa-file-word" style="color: #2a5699; margin-left: 5px;"></i>
-      </button>
-      <div class="dropdown-content" id="dropdown-8-4">
-        <a href="https://www.mediafire.com/file/ngtyu5848dnn0et/8.4+español.odt/file" target="_blank" onclick="incrementarContador()">
-          <img src="8_page-0001.jpg" alt="Volumen 8.4">
-        </a>
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown('odt-9.1')"><i class="fas fa-chevron-down"></i> Volumen 9.1</button>
+        <div class="dropdown-content" id="odt-9.1">
+          <a href="https://www.mediafire.com/file/rm8nsyy1p73dvf8/9.1+español.odt/file" target="_blank" onclick="incrementarContador()">
+            <img src="9.webp" width="800" height="1131" alt="Volumen 9.1" loading="lazy">
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-8-41')">
-        <i class="fas fa-chevron-down"></i> Volumen 8.4
-        <i class="fas fa-file-pdf" style="color: red; margin-left: 10px;"></i>
-      </button>
-      <div class="dropdown-content" id="dropdown-8-41">
-        <a href="https://www.mediafire.com/file/peqkwz27rh4mj01/8.4+español.pdf/file" target="_blank" onclick="incrementarContador()">
-          <img src="8_page-0001.jpg" alt="Volumen 8.41">
-        </a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-9-1')">
-        <i class="fas fa-chevron-down"></i> Volumen 9.1
-        <i class="fas fa-file-word" style="color: #2a5699; margin-left: 5px;"></i>
-      </button>
-      <div class="dropdown-content" id="dropdown-9-1">
-        <a href="https://www.mediafire.com/file/rm8nsyy1p73dvf8/9.1+español.odt/file" target="_blank" onclick="incrementarContador()">
-          <img src="9_page-0001.jpg" alt="Volumen 9.1">
-        </a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropdown-btn" onclick="toggleDropdown('dropdown-9-11')">
-        <i class="fas fa-chevron-down"></i> Volumen 9.1
-        <i class="fas fa-file-pdf" style="color: red; margin-left: 10px;"></i>
-      </button>
-      <div class="dropdown-content" id="dropdown-9-11">
-        <a href="https://www.mediafire.com/file/tjqrq7ok1tl6uyr/9.1+español.pdf/file" target="_blank" onclick="incrementarContador()">
-          <img src="9_page-0001.jpg" alt="Volumen 9.11">
-        </a>
-      </div>
+      <!-- Repetir para ODT 8.2, 8.3, 8.4, 9.1 -->
     </div>
   </div>
-  
 </main>
-
-
-<script>
-
-
-function toggleDropdown(id) {
-  var content = document.getElementById(id);
-  if (content) {
-    content.classList.toggle('open');
-    var audio = new Audio('https://actions.google.com/sounds/v1/cartoon/pop.ogg');
-    audio.play();
-  }
-}
-
-
-const binId = '68113e568561e97a500a562e';
-const apiKey = '$2a$10$dESLzWtywGFV1bSVU95Q../tb7ODOEaihmaYlpxKAh7SKq2QHzLMO';
-const url = `https://api.jsonbin.io/v3/b/${binId}`;
-
-function actualizarContadorUI(valor) {
-  document.getElementById("contador").textContent = valor;
-}
-
-async function obtenerContador() {
-  try {
-    const res = await fetch(url, { headers: { "X-Master-Key": apiKey } });
-    const data = await res.json();
-    actualizarContadorUI(data.record.contador || 0);
-  } catch (e) {
-    actualizarContadorUI("ERR");
-    console.error("No se pudo obtener el contador:", e);
-  }
-}
-
-async function incrementarContador() {
-  try {
-    const res = await fetch(url, { headers: { "X-Master-Key": apiKey } });
-    const data = await res.json();
-    const nuevo = (data.record.contador || 0) + 1;
-
-    await fetch(url, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-        "X-Master-Key": apiKey
-      },
-      body: JSON.stringify({ contador: nuevo })
-    });
-
-    actualizarContadorUI(nuevo);
-  } catch (e) {
-    console.error("No se pudo incrementar el contador:", e);
-  }
-}
-
-obtenerContador();
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
