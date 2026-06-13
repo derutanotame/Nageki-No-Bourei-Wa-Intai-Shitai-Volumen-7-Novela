@@ -107,19 +107,21 @@ body {
     color: #ccc;
     line-height: 1.6;
   }
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
   header {
-    font-size: 1.6em;
-    padding-top: 15px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
   }
 
   .catalogo-btn {
     position: absolute;
     top: auto;
     bottom: 10px;
-    right: 10px;
-    padding: 8px 12px;
-    font-size: 0.6em;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+
+  .catalogo-btn:hover {
+    transform: translateX(-50%) scale(1.05);
   }
 }
