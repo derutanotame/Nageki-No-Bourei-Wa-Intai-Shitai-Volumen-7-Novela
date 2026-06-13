@@ -108,20 +108,7 @@ body {
     line-height: 1.6;
   }
 @media (max-width: 768px) {
-  header {
-    padding-bottom: 70px;
-  }
-
   .catalogo-btn {
-    position: absolute;
-    top: auto;
-    bottom: 10px;
-    left: 50%;
-    right: auto;
-    transform: translateX(-50%);
-  }
-
-  .catalogo-btn:hover {
-    transform: translateX(-50%) scale(1.05);
+    display: none;
   }
 }
