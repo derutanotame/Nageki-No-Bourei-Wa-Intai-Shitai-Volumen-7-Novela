@@ -9,6 +9,7 @@ body {
   }
   
   header {
+    position: relative;
     background-color: rgba(0,0,0,0.7);
     padding: 20px;
     text-align: center;
@@ -19,6 +20,24 @@ body {
     z-index: 1000;
     backdrop-filter: blur(10px);
   }
+  
+.catalogo-btn {
+    position: absolute;
+    top: 15px;
+    right: 70px; /* Ajusta según la posición del icono de Facebook */
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.catalogo-btn:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
   
   main {
     display: flex;
@@ -77,19 +96,15 @@ body {
     height: auto;
     border-radius: 10px;
   }
-  .facebook-link {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 1.8em;
-    color: #3b5998;
-  }
-  .facebook-link:hover {
-    transform: scale(1.2);
-    color: #8b9dc3;
-  }
   .counter {
     font-size: 0.7em;
     color: #ccc;
+  }
+  .descripcion-seo {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #ccc;
+    line-height: 1.6;
   }
   
