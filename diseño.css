@@ -108,7 +108,15 @@ body {
     line-height: 1.6;
   }
 @media (max-width: 768px) {
+  header {
+    font-size: 1.5em !important;
+    padding-bottom: 60px !important;
+  }
+
   .catalogo-btn {
-    display: none;
+    position: static !important;
+    display: inline-block;
+    margin-top: 15px;
+    transform: none !important;
   }
 }
