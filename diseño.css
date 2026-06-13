@@ -109,14 +109,23 @@ body {
   }
 @media (max-width: 768px) {
   header {
-    font-size: 1.5em !important;
-    padding-bottom: 60px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .facebook-link {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .facebook-link svg {
+    display: block;
+    width: 32px;
+    height: 32px;
   }
 
   .catalogo-btn {
-    position: static !important;
-    display: inline-block;
-    margin-top: 15px;
-    transform: none !important;
+    position: static;
   }
 }
